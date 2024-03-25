@@ -1,0 +1,116 @@
+.task-main-container {
+  background-color: #131213;
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+}
+
+.task-create-container {
+  background-color: #323f4b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+.task-main-heading {
+  color: #f3aa4e;
+  font-size: 27px;
+  font-family: Roboto;
+}
+.task-label {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.task-input {
+  width: 100%;
+  padding: 9px 15px 9px 15px;
+  margin-top: 10px;
+  border-width: 0px;
+  outline: none;
+}
+.task-input-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
+}
+.task-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 9px 15px 9px 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.tag-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+
+.tag-tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #1a171d;
+  padding: px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.taskList-heading {
+  color: #f1f5f9;
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: Roboto;
+}
+
+.taskList-button {
+  margin-right: 20px;
+  background-color: #f3aa4e;
+  color: #475569;
+  padding: 9px 15px 9px 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+}
+.no-task-para {
+  margin: auto;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto;
+}

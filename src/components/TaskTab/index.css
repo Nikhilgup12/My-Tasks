@@ -1,0 +1,14 @@
+.tab-list {
+  margin-right: 10px;
+}
+.tab-btn {
+  border: 1px solid #f3aa4e;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #1a171d;
+  padding: 7px 10px 7px 10px;
+  cursor: pointer;
+}
+.active-tab {
+  background-color: #f3aa4e ;
+}
